@@ -36,6 +36,7 @@ function onClickChangeThemeStop() {
   clearInterval(intervalId);
   console.log("stop changing color")
   startBtn.removeAttribute('disabled');
+  bodyTheme.style.backgroundColor = "";
 };
 
 
